@@ -47,7 +47,7 @@ do
     -- // 24 december 2022: added groups to make my life easier
 
     function utility:Draw(class, offset, properties, t)
-        t = t or false
+        t = t or true
 
         local draw = Drawing.new(class)
         local fakeDraw = {}
